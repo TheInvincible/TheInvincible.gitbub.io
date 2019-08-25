@@ -1,0 +1,17 @@
+#bggold {
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(blue-whale.jpg); 
+}
+/** 
+form {
+	width: 360px;
+}
+**/
+.form input {
+	box-sizing: border-box;
+}
+
+.log-in, #reset {
+	display: none;
+}

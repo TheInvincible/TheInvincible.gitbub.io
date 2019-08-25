@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/teststyle.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Login Here</h2>
+		<form id="form" action="test.html" method="POST">
+			<input type="text" name="name" placeholder=" Your Full Name" id="full-name" required>
+			<input type="password" name="password" placeholder="Enter your password" id="password" required>
+			<button type="submit" class="login">Submit</button>
+		</form>
+		<p>forgot password?<a onclick="forgotPassword()" href=""> Reset password here</a></p>
+	</div>
+	<div class="container">
+		<form id="reset">
+			<label><input type="email" name="enter email here">Enter your email to reset your password</label>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="scripts/login.js"></script>
+
+</body>
+</html>
